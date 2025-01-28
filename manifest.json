@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "WinMimic User Agent Switcher",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Switches your User-Agent OS to Windows.",
   "icons": {
     "48": "icons/win-agent-48.png",
@@ -16,6 +16,11 @@
   ],
   "background": {
     "scripts": ["background.js"]
-  }
+  },
+	"browser_action": {
+		"default_icon": {
+			"48": "icons/win-agent-48.png"
+		}
+	}
 }
 
